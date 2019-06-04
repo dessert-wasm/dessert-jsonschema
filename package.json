@@ -1,0 +1,30 @@
+{
+  "name": "dessert-jsonschema",
+  "version": "1.0.0",
+  "description": "jsonschema but with WebAssembly",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "dessert-jsonschema-core": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dessert-wasm/dessert-jsonschema.git"
+  },
+  "keywords": [
+    "wasm",
+    "jsonschema"
+  ],
+  "author": "Dessert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dessert-wasm/dessert-jsonschema/issues"
+  },
+  "homepage": "https://github.com/dessert-wasm/dessert-jsonschema#readme"
+}
