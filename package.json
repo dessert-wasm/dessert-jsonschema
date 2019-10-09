@@ -1,6 +1,6 @@
 {
   "name": "dessert-jsonschema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jsonschema but with WebAssembly",
   "main": "index.js",
   "directories": {

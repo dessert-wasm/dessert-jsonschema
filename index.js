@@ -1,3 +1,10 @@
-let jsonschema = require('./lib/jsonschema.js');
+let wasm = require('dessert-jsonschema-core');
 
-module.exports = jsonschema;
+class Validator {
+    validate(instance, schema) {
+        return wasm.validate(instance, schema);
+    }
+}
+
+module.exports.Validator	= Validator;
+module.exports.validate		= wasm.validate;
