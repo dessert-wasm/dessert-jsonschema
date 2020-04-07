@@ -1,21 +1,27 @@
+[![](https://user-images.githubusercontent.com/25987204/78205790-10b0c680-74d8-11ea-9767-5bb93e920044.png)](https://dessert.dev/)
+
 # Dessert jsonschema
+============
 
-Clone of [jsonschema](https://github.com/tdegrunt/jsonschema) implemented in Rust for WebAssembly
+[![npm-badge]][npm-url]
+[![license-badge]][license]
 
-## Summary
+[npm-badge]: https://img.shields.io/npm/v/dessert-jsonschema.svg
+[npm-url]: https://www.npmjs.org/package/dessert-jsonschema
+[license-badge]: https://img.shields.io/github/license/dessert-wasm/dessert-jsonschema
+[license]: LICENSE_MIT
+
+> [jsonschema](https://github.com/tdegrunt/jsonschema), but implemented in Rust and WebAssembly
+
+## Table of contents
+* [Usage](#usage)
 * [Installation](#installation)
-* [Quick Example](#quickexample)
+* [License](#license)
+* [Contributing](#contributing)
 
-## Installation
-```sh
-npm install dessert-jsonschema
-```
+## Usage
 
-## Quick Example
-
-### Node
-
-```javascript
+```js
 var Validator = require('dessert-jsonschema').Validator;
 var v = new Validator();
 var instance = 4;
@@ -29,3 +35,15 @@ console.log(v.validate(instance, schema));
 var validate = require('dessert-jsonschema').validate;
 console.log(validate(4, {"type": "number"}));
 ```
+
+## Installation
+With [npm](https://npmjs.org/):
+```shell
+npm install dessert-jsonschema
+```
+
+## License
+This software is licensed under the MIT license (see [LICENSE](LICENSE_MIT)).
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md)
